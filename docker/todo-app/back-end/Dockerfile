@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-WORKDIR ./todo-app/back-end
+WORKDIR /usr/app
 
 COPY package.json .
 
