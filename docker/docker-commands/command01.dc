@@ -1,1 +1,1 @@
-docker container create -it --name 01container alpine:3.12
+docker run -d --name 02images -p 3000:8080 nginx:1.21.3-alpine
